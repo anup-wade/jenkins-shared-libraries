@@ -6,4 +6,4 @@ def call(String projectName, String tag, String dockerHubUser) {
         docker push ${dockerHubUser}/${projectName}:${tag}
     """
 }
-}
+
